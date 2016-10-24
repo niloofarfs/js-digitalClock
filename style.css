@@ -1,0 +1,136 @@
+html *
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: slateblue;
+}
+
+.container
+{
+	width: 1100px;
+	margin: 200px auto;
+	border: solid 5px black;
+}
+.number
+{
+	position: relative;
+	width: 150px;
+	height: 250px;
+	display: inline-block;
+}
+
+.colon
+{
+	display: inline-block;
+	font-size: 300px;
+}
+
+.top
+{
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	width: 100px;
+	height: 1px;
+	border-top: 20px solid #000;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+}
+
+.left-t
+{
+	position: absolute;
+	top: 5px;
+	left: 0px;
+	height: 100px;
+	width: 1px;
+	border-left: 18px solid #000;
+	border-top: 18px solid transparent;
+	border-bottom: 18px solid transparent;
+}
+
+.left-b
+{
+	position: absolute;
+	top: 145px;
+	left: 0px;
+	height: 100px;
+	width: 1px;
+	border-left: 18px solid #000;
+	border-top: 18px solid transparent;
+	border-bottom: 18px solid transparent;
+}
+
+
+.right-t
+{
+	position: absolute;
+	left: 120px;
+	top: 5px;
+	width: 1px;
+	height: 100px;
+	border-right: 20px solid #000;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+}
+
+
+.right-b
+{
+	position: absolute;
+	left: 120px;
+	top: 145px;
+	width: 1px;
+	height: 100px;
+	border-right: 20px solid #000;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+}
+
+.bottom
+{
+	left: -2px;
+	top: 268px;
+	position: absolute;
+	width: 100px;
+	height: 1px;
+	border-bottom: 20px solid #000;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+}
+
+.center
+{
+	position: absolute;
+	left: 4px;
+	top: 127px;
+
+}
+
+.center-t
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100px;
+	height: 1px;
+	border-bottom: 15px solid #000;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+}
+
+.center-b
+{
+	position: absolute;
+	left: 0px;
+	top: 15px;
+	width: 100px;
+	height: 1px;
+	border-top: 15px solid #000;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+}
